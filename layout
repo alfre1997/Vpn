@@ -1,0 +1,14 @@
+{
+  "version": 100,
+  "release_notes": "Servidores actualizados correctamente.",
+  "update_url": "https://gist.githubusercontent.com/alfre1997/add8adcf358db497df88a22261923989/raw/config.json",
+  "notice": {
+    "enabled": true,
+    "title": "Aviso Importante",
+    "message": "Disfruta de la conexión estable."
+  },
+  "social": {
+    "telegram": "https://t.me/",
+    "whatsapp": "https://wa.me/"
+  }
+}

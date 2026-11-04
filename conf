@@ -1,0 +1,30 @@
+[
+    {
+        "name": "CLARO LOGIN",
+        "host": "No.descomplica.com.br",
+        "port": 443,
+        "payload": "GET wss://No.descomplica.com.br HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
+        "sni": "No.descomplica.com.br"
+    },
+    {
+        "name": "TIM LOGIN",
+        "host": "static.r4you.co",
+        "port": 443,
+        "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
+        "sni": "static.r4you.co"
+    },
+    {
+        "name": "VIVO LOGIN",
+        "host": "gedoc.vivo.com.br",
+        "port": 443,
+        "payload": "GET wss://gedoc.vivo.com.br  HTTP/1.1[crlf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
+        "sni": "gedoc.vivo.com.br"
+    },
+    {
+        "name": "UIVERSAL LOGIN",
+        "host": "104.16.56.6",
+        "port": 443,
+        "payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: socket.dutrasystem.net [crlf]Upgrade: websocket[crlf][crlf]",
+        "sni": "mobilidade.cloud.caixa.gov.br"
+    }
+]

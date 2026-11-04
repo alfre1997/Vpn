@@ -1,7 +1,7 @@
 {
   "version": 100,
   "release_notes": "Servidores actualizados correctamente.",
-  "update_url": "https://gist.githubusercontent.com/alfre1997/add8adcf358db497df88a22261923989/raw/config.json",
+  "update_url": "https://raw.githubusercontent.com/alfre1997/Vpn/refs/heads/main/layout",
   "notice": {
     "enabled": true,
     "title": "Aviso Importante",

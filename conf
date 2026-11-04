@@ -1,30 +1,61 @@
-[
+{
+  "Version": "1.0",
+  "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
+  "UrlUpdate": "https://bitbin.it/L24YuztP/raw/",
+  "Sms": "https://bitbin.it/L24YuztP/raw/",
+  "EmailFeedback": "https://wa.me/+595971935582",
+  "UrlContato": "",
+  "UrlTermos": "",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
     {
-        "name": "CLARO LOGIN",
-        "host": "No.descomplica.com.br",
-        "port": 443,
-        "payload": "GET wss://No.descomplica.com.br HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
-        "sni": "No.descomplica.com.br"
-    },
-    {
-        "name": "TIM LOGIN",
-        "host": "static.r4you.co",
-        "port": 443,
-        "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
-        "sni": "static.r4you.co"
-    },
-    {
-        "name": "VIVO LOGIN",
-        "host": "gedoc.vivo.com.br",
-        "port": 443,
-        "payload": "GET wss://gedoc.vivo.com.br  HTTP/1.1[crlf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
-        "sni": "gedoc.vivo.com.br"
-    },
-    {
-        "name": "UIVERSAL LOGIN",
-        "host": "104.16.56.6",
-        "port": 443,
-        "payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: socket.dutrasystem.net [crlf]Upgrade: websocket[crlf][crlf]",
-        "sni": "mobilidade.cloud.caixa.gov.br"
+      "Porta": "7300"
     }
-]
+  ],
+  "Servers": [
+    {
+      "Name": "ANONYMOUS PY",
+      "TYPE": "premium",
+      "FLAG": "py.png",
+      "ServerIP": "ayuda.tigo.com.py",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "TIGO PY🇵🇾",
+      "FLAG": "vip",
+      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "ayuda.tigo.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIGO PY1🇵🇾",
+      "FLAG": "tim",
+      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ayuda.tigo.com.py",
+      "TlsIP": "ayuda.tigo.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "ESTADO UNIDOS🇱🇷",
+      "FLAG": "tim",
+      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ayuda.ayuda.tigo.com.py",
+      "TlsIP": "ayuda.tigo.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
